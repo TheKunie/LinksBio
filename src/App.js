@@ -27,6 +27,7 @@ export default function App() {
       actions.setSubmitting(false);
       actions.resetForm();
     };
+    
 
     return (
       <Formik
@@ -47,9 +48,7 @@ export default function App() {
             onClick={() => {
               removeitem();
             }}
-          >
-            Remove last Item
-          </button>
+          >Remove last Item</button>
         </Form>
       </Formik>
     );
